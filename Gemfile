@@ -1,13 +1,13 @@
-#after any changes to the Gemfile, execute bundle update!
-source "https://rubygems.org"
+source 'https://rubygems.org'
 
-gem "jekyll-remote-theme"
+gem 'jekyll', '~> 4.2.0'
 
 group :jekyll_plugins do
-  gem "jekyll-feed", "~> 0.6"
-  # gem "github-pages" # https://github.com/github/pages-gem
+  gem 'jekyll-archives', '~> 2.2.1'
+  gem 'jekyll-feed', '~> 0.15.1'
+  gem 'jekyll-paginate', '~> 1.1.0'
+  gem 'jekyll-seo-tag', '~> 2.7.1'
+  gem 'jekyll-sitemap', '~> 1.4.0'
 end
 
-# Uncomment the following line if developing on Windows: 
-# Performance-booster for watching directories on Windows
-# gem "wdm", ">= 0.1.0" if Gem.win_platform?
+gem "webrick", "~> 1.7"
