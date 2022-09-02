@@ -1,10 +1,10 @@
 # ----
 # Site
 
-title: Hydra Template
-url: "https://proud-alligator.cloudvent.net"
-baseurl:
-google_analytics_key:
+title: Xcodes
+url: "https://www.xcodes.app"
+baseurl: "" #https://www.xcodes.app
+google_analytics_key: G-Z352YS8PK1
 google_maps_javascript_api_key:
 disqus_shortname:
 

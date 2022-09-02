@@ -1,24 +1,16 @@
-- name: Pricing
-  link: /pricing/
-  new_window: false
-  highlight: false
-- name: Blog
-  link: /blog/
-  new_window: false
-  highlight: false
-- name: About
-  link: /about/
-  new_window: false
-  highlight: false
-- name: Contact
-  link: /contact/
-  new_window: false
-  highlight: false
-- name: Login
-  link: /
+# - name: Release Notes
+#   link: /blog/
+#   new_window: false
+#   highlight: false
+# - name: About
+#   link: /about/
+#   new_window: false
+#   highlight: false
+- name: Download Xcodes
+  link: https://github.com/RobotsAndPencils/xcodesapp/releases/latest.zip
   new_window: true
-  highlight: false
-- name: Sign Up
-  link: /
+  highlight: true
+- name: Download CLI
+  link: https://github.com/RobotsAndPencils/xcodes/releases/latest.zip
   new_window: true
   highlight: true
