@@ -2,6 +2,7 @@
 # Site
 
 title: Xcodes
+tagline: Friends don't let friends download from the Mac AppStore
 url: "https://www.xcodes.app"
 baseurl: "" #https://www.xcodes.app
 google_analytics_key: G-Z352YS8PK1
@@ -10,15 +11,17 @@ disqus_shortname:
 
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
 logo: /siteicon.png
-description: Product marketing template for Jekyll.
-author:
-  name:
-  email:
-  twitter: # twitter username without the @ symbol
+description: Xcodes - Manage multiple versions of Xcode
+twitter: 
+  username: xcodesapp
+  card: summary
+author: 
+  name: Matt Kiazyk
+  twitter: mattkiazyk
 social:
-  name: Hydra Template
+  name: Xcodes
   links:
-    - https://github.com/CloudCannon/hydra-jekyll-template
+    - https://github.com/Robots
 
 # -----
 # Build
