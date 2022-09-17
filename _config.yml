@@ -1,7 +1,7 @@
 # ----
 # Site
 
-title: Xcodes
+title: Xcodes - Manage multiple versions of Xcode
 tagline: Friends don't let friends download from the Mac AppStore
 url: "https://www.xcodes.app"
 baseurl: "" #https://www.xcodes.app
@@ -11,17 +11,13 @@ disqus_shortname:
 
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
 logo: /siteicon.png
-description: Xcodes - Manage multiple versions of Xcode
+description: Download Xcode easily with a mouse click or a Command Line Interface
 twitter: 
   username: xcodesapp
   card: summary
 author: 
   name: Matt Kiazyk
   twitter: mattkiazyk
-social:
-  name: Xcodes
-  links:
-    - https://github.com/Robots
 
 # -----
 # Build
