@@ -1,0 +1,854 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <channel>
+        <title>XcodesApp</title>
+        <description>Most recent changes with links to updates.</description>
+        <language>en</language>
+        
+            
+                
+                    <item>
+                        <title>v1.9.0 - The Empire Strikes Back 🍎 </title>
+                        <description><![CDATA[<p>Install Xcodes using one of the methods listed <a href="https://github.com/RobotsAndPencils/XcodesApp#installation">here</a>.
+Update Xcodes by selecting Check for Updates… in the Xcodes menu in the menu bar.</p>
+
+<p>This returns the requirement of having to log in via your Apple username/password when using xcodereleases. 😢</p>
+
+<h2 id="changes">Changes</h2>
+
+<h2 id="-enhancements">🚀 Enhancements</h2>
+
+<ul>
+  <li>Improve Spanish localization in Preferences (#322) @DannyJJK</li>
+  <li>Adds an option to save beta versions with <code class="language-plaintext highlighter-rouge">-beta</code> symlink (#304) @leon-wolf</li>
+  <li>add error message when trying to uninstall Xcode if file not found (#306) @leon-wolf</li>
+  <li>move download settings to own PreferencePane (#305) @leon-wolf</li>
+</ul>
+
+<h2 id="-bug-fixes">🐛 Bug Fixes</h2>
+
+<ul>
+  <li>Switch Xcode releases back to using Apple Auth :( (#328) @MattKiazyk</li>
+  <li>fix: Preference button on toolbar not working on Mac OS 13 Ventura (#303) @chedabob</li>
+</ul>
+
+<h2 id="-localization">🌎 Localization</h2>
+
+<ul>
+  <li>Add brazilian portuguese localization (#260) @brunomunizaf</li>
+  <li>Add Dutch localization (#307) @jfversluis</li>
+  <li>Fix localization on UnsupportedFileFormat (#309) @tt37</li>
+  <li>Remove localization from apple.com links (#308) @jfversluis</li>
+  <li>Typo in German Localization File (#296) @nklasio</li>
+</ul>
+
+<h2 id="-maintenance">🧰 Maintenance</h2>
+
+<ul>
+  <li>Bump actions/cache from 3.0.8 to 3.0.11 (#310) @dependabot</li>
+  <li>Add new contributing.md (#318) @MattKiazyk</li>
+</ul>
+
+<!-- sparkle:edSignature=BHOjL96nA0/98Fw4OJoSi/PXhjcTpo2jb3twRvwhwFbsJQV+AKLM+H3GRAvsT4rVbtX+txQw6A0UDeiSliPPBg== -->
+]]></description>
+                        <pubDate>Wed, 23 Nov 2022 03:56:04 +0000</pubDate>
+                        
+                            
+
+                            
+                            
+                                
+                                
+
+                                <enclosure
+                                    url="https://github.com/RobotsAndPencils/XcodesApp/releases/download/v1.9.0b17/Xcodes.zip"
+                                    sparkle:version="17"
+                                    sparkle:shortVersionString="1.9.0"
+                                    sparkle:edSignature="BHOjL96nA0/98Fw4OJoSi/PXhjcTpo2jb3twRvwhwFbsJQV+AKLM+H3GRAvsT4rVbtX+txQw6A0UDeiSliPPBg=="
+                                    length="11925583"
+                                    type="application/octet-stream" />
+                            
+                        
+                    </item>
+                
+            
+        
+            
+                
+                    <item>
+                        <title>v1.8.0</title>
+                        <description><![CDATA[<p>Install Xcodes using one of the methods listed <a href="https://github.com/RobotsAndPencils/XcodesApp#installation">here</a>.
+Update Xcodes by selecting Check for Updates… in the Xcodes menu in the menu bar.</p>
+
+<h2 id="xcodes-now-does-not-require-any-apple-id-and-password-when-downloading-xcode-">Xcodes now <strong>DOES NOT</strong> require any Apple ID and password when downloading Xcode! 🎉</h2>
+
+<p>At long last!  <strong>you no longer are required</strong> to provide your Apple username and password in order to download Xcode (as long as your using XcodeReleases datasource).</p>
+<ul>
+  <li>No more 2FA prompts!</li>
+  <li>No more errors when you haven’t signed the latest developer EULA!</li>
+  <li>No more nervous feeling giving your password to a 3rd Party.</li>
+</ul>
+
+<h2 id="changes">Changes</h2>
+
+<h2 id="-enhancements">🚀 Enhancements</h2>
+
+<ul>
+  <li>Add ability to download Xcode without logging in using XcodeReleases (#290) @MattKiazyk</li>
+</ul>
+
+<h2 id="-localization">🌎 Localization</h2>
+
+<ul>
+  <li>Fix French Translation (#288) @florentmorin</li>
+  <li>updated German translation (#285) @drct</li>
+  <li>Added Turkish missing translations in 1.7.0 (#277) @egrimo</li>
+  <li>Fix “Unarchiving” localization in Japanese (#280) @swiftty</li>
+  <li>Update Localizable.strings for Russian language (2) (#271) @duffpod</li>
+  <li>Update zh_Hans localizations. (#270) @megabitsenmzq</li>
+</ul>
+
+<h2 id="-maintenance">🧰 Maintenance</h2>
+
+<ul>
+  <li>Fix Finnish language name typo in README (#284) @marcusziade</li>
+  <li>Update readme with Taiwan flag (#274) @ymhuang0808</li>
+  <li>Bump actions/cache from 3.0.7 to 3.0.8 (#276) @dependabot</li>
+  <li>Bump actions/cache from 3.0.6 to 3.0.7 (#272) @dependabot</li>
+</ul>
+
+<!-- sparkle:edSignature=SgcxGfx96rqxNpxpecvyLbgzAg6gqSk6pYPn38zyRqs4Tp1RSTAp4kNLJJSbwSdYneo8yaHrIkJyBWft48XnAw== -->
+]]></description>
+                        <pubDate>Sat, 17 Sep 2022 04:05:30 +0000</pubDate>
+                        
+                            
+
+                            
+                            
+                                
+                                
+
+                                <enclosure
+                                    url="https://github.com/RobotsAndPencils/XcodesApp/releases/download/v1.8.0b16/Xcodes.zip"
+                                    sparkle:version="16"
+                                    sparkle:shortVersionString="1.8.0"
+                                    sparkle:edSignature="SgcxGfx96rqxNpxpecvyLbgzAg6gqSk6pYPn38zyRqs4Tp1RSTAp4kNLJJSbwSdYneo8yaHrIkJyBWft48XnAw=="
+                                    length="11915836"
+                                    type="application/octet-stream" />
+                            
+                        
+                    </item>
+                
+            
+        
+            
+                
+                    <item>
+                        <title>v1.7.0</title>
+                        <description><![CDATA[<p>Install Xcodes using one of the methods listed <a href="https://github.com/RobotsAndPencils/XcodesApp#installation">here</a>.
+Update Xcodes by selecting Check for Updates… in the Xcodes menu in the menu bar.</p>
+
+<p>Please follow us on Twitter at <a href="https://twitter.com/xcodesapp">@xcodesapp</a> to be notified when new releases happen!</p>
+
+<h2 id="changes">Changes</h2>
+
+<h3 id="support-for-5-new-languages-thanks-to-all-the-1st-time-contributors----were-up-to-14-supported-languages">Support for 5 new languages! Thanks to all the 1st time contributors!   🎉 We’re up to 14 supported languages!</h3>
+
+<h2 id="-enhancements">🚀 Enhancements</h2>
+
+<ul>
+  <li>Ability to change the installation directory (#268) @MattKiazyk</li>
+  <li>Add option to rename Xcode to Xcode.app on select. (#267) @MattKiazyk</li>
+  <li>Use monospaced digit font for download progress (#264) @gredman</li>
+  <li>Adds Copy Release Notes URL context menu (#255) @d-date</li>
+  <li>Turkish Language Improvements &amp; WWDC Message Localization (#246) @egrimo</li>
+</ul>
+
+<h2 id="-new-languages">🌎 New Languages</h2>
+
+<ul>
+  <li>Add Finnish Localization (#262) @marcusziade</li>
+  <li>Add Japanese Localization (#249) @tatsuz0u</li>
+  <li>Add Ukrainian Localization (#259) @gelosi</li>
+  <li>Add German Localization (#243) @drct</li>
+  <li>Add Traditional Chinese Localization (#240) @itszero</li>
+</ul>
+
+<h2 id="-bug-fixes">🐛 Bug Fixes</h2>
+
+<ul>
+  <li>Fix macOS Ventura crash on Settings View  (#258) @GetToSet</li>
+  <li>Fix crash on sign in sheet cancel (#257) @swiftty</li>
+  <li>Update Release Date format on InfoPane for better localization (#251) @d-date</li>
+  <li>Fix minimum version supported localization alert message (#253) @MattKiazyk</li>
+  <li>Fixed wrong localization key for Github Repo in AboutView (#248) @duffpod</li>
+</ul>
+
+<h2 id="-maintenance">🧰 Maintenance</h2>
+
+<ul>
+  <li>Bump actions/cache from 3.0.5 to 3.0.6 (#269) @dependabot</li>
+  <li>Bump tzinfo from 1.2.9 to 1.2.10 in /AppCast (#266) @dependabot</li>
+  <li>Bump actions/cache from 3.0.4 to 3.0.5 (#263) @dependabot</li>
+  <li>Bump actions/cache from 3.0.3 to 3.0.4 (#241) @dependabot</li>
+</ul>
+
+<!-- sparkle:edSignature=hB7zXWFEDyrIoZTatX9M+UVaP8dQDsEoau9CVrZpOaCt5rMH/w230CginnuTHk1v6y4fMiN4sAAe9YCjr34eAQ== -->
+]]></description>
+                        <pubDate>Tue, 09 Aug 2022 01:34:27 +0000</pubDate>
+                        
+                            
+
+                            
+                            
+                                
+                                
+
+                                <enclosure
+                                    url="https://github.com/RobotsAndPencils/XcodesApp/releases/download/v1.7.0b15/Xcodes.zip"
+                                    sparkle:version="15"
+                                    sparkle:shortVersionString="1.7.0"
+                                    sparkle:edSignature="hB7zXWFEDyrIoZTatX9M+UVaP8dQDsEoau9CVrZpOaCt5rMH/w230CginnuTHk1v6y4fMiN4sAAe9YCjr34eAQ=="
+                                    length="11907807"
+                                    type="application/octet-stream" />
+                            
+                        
+                    </item>
+                
+            
+        
+            
+                
+                    <item>
+                        <title>v1.6.0</title>
+                        <description><![CDATA[<p>Install Xcodes using one of the methods listed <a href="https://github.com/RobotsAndPencils/XcodesApp#installation">here</a>.
+Update Xcodes by selecting Check for Updates… in the Xcodes menu in the menu bar.</p>
+
+<p>Please follow us on Twitter at <a href="https://twitter.com/xcodesapp">@xcodesapp</a> to be notified when new releases happen!</p>
+
+<h2 id="changes">Changes</h2>
+
+<h3 id="support-for-4-new-languages-thanks-to-all-the-1st-time-contributors---">Support for 4 new languages! Thanks to all the 1st time contributors!   🎉</h3>
+
+<h2 id="-enhancements">🚀 Enhancements</h2>
+
+<ul>
+  <li>Adding Italian localization 🇮🇹  (#229) @gualtierofrigerio</li>
+  <li>Adding Chinese-Simplified localizations. 🇨🇳  (#222) @megabitsenmzq</li>
+  <li>Add Korean Localization 🇰🇷  (#233) @ryan-son</li>
+  <li>Adding Turkish Language 🇹🇷  (#219) @egrimo</li>
+  <li>Update Localizable.strings for Russian language (#234) @duffpod</li>
+  <li>Added a new bottom status bar @MattKiazyk</li>
+  <li>Updated unxip binary to latest @MattKiazyk</li>
+</ul>
+
+<h2 id="-maintenance">🧰 Maintenance</h2>
+
+<ul>
+  <li>Bump actions/cache from 3.0.2 to 3.0.3 (#236) @dependabot</li>
+</ul>
+
+<!-- sparkle:edSignature=whzvbz/AK1Zv7laaOlBC+O5b2ra1stDa38FI30cA1+KxRExSIve/sf7d0JEBz18rbFBHxO1DpOpIiB5rwZRODQ== -->
+]]></description>
+                        <pubDate>Sun, 05 Jun 2022 02:55:33 +0000</pubDate>
+                        
+                            
+
+                            
+                            
+                                
+                                
+
+                                <enclosure
+                                    url="https://github.com/RobotsAndPencils/XcodesApp/releases/download/v1.6.0b14/Xcodes.zip"
+                                    sparkle:version="14"
+                                    sparkle:shortVersionString="1.6.0"
+                                    sparkle:edSignature="whzvbz/AK1Zv7laaOlBC+O5b2ra1stDa38FI30cA1+KxRExSIve/sf7d0JEBz18rbFBHxO1DpOpIiB5rwZRODQ=="
+                                    length="11856667"
+                                    type="application/octet-stream" />
+                            
+                        
+                    </item>
+                
+            
+        
+            
+                
+                    <item>
+                        <title>v1.5.0</title>
+                        <description><![CDATA[<p>Install Xcodes using one of the methods listed <a href="https://github.com/RobotsAndPencils/XcodesApp#installation">here</a>.
+Update Xcodes by selecting Check for Updates… in the Xcodes menu in the menu bar.</p>
+
+<p>Please follow us on Twitter at <a href="https://twitter.com/xcodesapp">@xcodesapp</a> to be notified when new releases happen!</p>
+
+<h2 id="localization-support-">Localization Support 🎉</h2>
+
+<p>Salut Hola привет नमस्ते</p>
+
+<p>Xcodes now supports localization! Included in v1.5 is 4 languages thanks to our amazing contributors below! We’ve added Spanish, French, Russian and Hindi!</p>
+
+<p>Want to add another language - just make a PR on the <a href="https://github.com/RobotsAndPencils/XcodesApp">Github</a></p>
+
+<h2 id="-enhancements">🚀 Enhancements</h2>
+
+<ul>
+  <li>Hindi Localization (#212) @KGurpreet</li>
+  <li>French Localization (#210) @dompepin</li>
+  <li>Russian Localization  (#208) @alexmazlov</li>
+  <li>Spanish Localization  (#205) @cesartru88</li>
+  <li>Support Localization (#203) @MattKiazyk</li>
+</ul>
+
+<h2 id="-bug-fixes">🐛 Bug Fixes</h2>
+
+<ul>
+  <li>Fixes some localization formatting (#206) @MattKiazyk</li>
+  <li>Fix: Load create SymLink preference on start (#202) @MattKiazyk</li>
+</ul>
+
+<h2 id="-maintenance">🧰 Maintenance</h2>
+
+<ul>
+  <li>Update Sparkle to 2.1 (#218) @MattKiazyk</li>
+</ul>
+
+<!-- sparkle:edSignature=oOzczQVk8QV9OsnTvEkp0U6H7w5OE0KYHt0DI1jgeywW7ciiydsBnGx3cl+5/tbdpHXvfVni7ePAzapjPPloAQ== -->
+
+]]></description>
+                        <pubDate>Thu, 12 May 2022 18:57:32 +0000</pubDate>
+                        
+                            
+
+                            
+                            
+                                
+                                
+
+                                <enclosure
+                                    url="https://github.com/RobotsAndPencils/XcodesApp/releases/download/v1.5.0b13/Xcodes.zip"
+                                    sparkle:version="13"
+                                    sparkle:shortVersionString="1.5.0"
+                                    sparkle:edSignature="oOzczQVk8QV9OsnTvEkp0U6H7w5OE0KYHt0DI1jgeywW7ciiydsBnGx3cl+5/tbdpHXvfVni7ePAzapjPPloAQ=="
+                                    length="11817539"
+                                    type="application/octet-stream" />
+                            
+                        
+                    </item>
+                
+            
+        
+            
+                
+                    <item>
+                        <title>v1.4.0</title>
+                        <description><![CDATA[<p>Install Xcodes using one of the methods listed <a href="https://github.com/RobotsAndPencils/XcodesApp#installation">here</a>.
+Update Xcodes by selecting Check for Updates… in the Xcodes menu in the menu bar.</p>
+
+<p>Please follow us on Twitter at <a href="https://twitter.com/xcodesapp">@xcodesapp</a> to be notified when new releases happen!</p>
+
+<h2 id="-enhancements">🚀 Enhancements</h2>
+
+<p><strong>Remember to turn on the Unxip Experiment for faster unxipping!</strong></p>
+
+<h3 id="adds-option-to-create-symbolic-link-at-path-xcodeapp-198-mattkiazyk">Adds option to create symbolic link at Path Xcode.app (#198) @MattKiazyk</h3>
+<ul>
+  <li>Some 3rd party services and libraries check specifically for <code class="language-plaintext highlighter-rouge">Xcode.app</code> which Xcodes doesn’t support as we separate the version numbers. This adds the ability to make a Symbolic Link called <code class="language-plaintext highlighter-rouge">Xcode.app</code> that points to the xcode version you want.</li>
+</ul>
+
+<h3 id="add-preference-to-make-symbolic-link-automatic-on-xcode-select-200-mattkiazyk">Add Preference to make Symbolic Link Automatic on Xcode Select (#200) @MattKiazyk</h3>
+<ul>
+  <li>In addition to the above enhancement. Go to <code class="language-plaintext highlighter-rouge">Preferences &gt; Advanced</code> to automatically create the symbolic link to whichever Xcode version you make Active/Select.</li>
+  <li>Note this will not work if you are manually setting via Xcode or command line.</li>
+</ul>
+
+<h3 id="add-check-for-min-macos-version-when-installing-199-mattkiazyk">Add check for min MacOS version when installing (#199) @MattKiazyk</h3>
+<ul>
+  <li>Sometimes we don’t update our MacOS as quickly as Apple would like us to. When you install an Xcode version, we will now check it’s minimum supported MacOS version and prompt you as a warning.</li>
+</ul>
+
+<h2 id="-bug-fixes">🐛 Bug Fixes</h2>
+
+<h3 id="use-a-fixed-locale-for-api-response-date-parsing-196-aerickson14">Use a fixed locale for API response date parsing (#196) @aerickson14</h3>
+<ul>
+  <li>If your Mac was set to a date time preference not of North America, Xcodes had trouble decoding a DateTime string. Thanks to @SimonRice for the detail on fixing that.</li>
+</ul>
+
+<h2 id="-maintenance">🧰 Maintenance</h2>
+
+<ul>
+  <li>Bump actions/cache from 3.0.1 to 3.0.2 (#197) @dependabot</li>
+  <li>Bump actions/cache from 2.1.7 to 3.0.1 (#195) @dependabot</li>
+</ul>
+
+<!-- sparkle:edSignature=TVoWUrdazSWlLZtbe1RFrs9cKRUiZZls9fg8/QJ+kjnYefQ1AA0gN0AJn+2PkIOUS1cMXQJktfEULHdTcUhrBg== -->
+]]></description>
+                        <pubDate>Thu, 14 Apr 2022 20:38:10 +0000</pubDate>
+                        
+                            
+
+                            
+                            
+                                
+                                
+
+                                <enclosure
+                                    url="https://github.com/RobotsAndPencils/XcodesApp/releases/download/v1.4.0b12/Xcodes.zip"
+                                    sparkle:version="12"
+                                    sparkle:shortVersionString="1.4.0"
+                                    sparkle:edSignature="TVoWUrdazSWlLZtbe1RFrs9cKRUiZZls9fg8/QJ+kjnYefQ1AA0gN0AJn+2PkIOUS1cMXQJktfEULHdTcUhrBg=="
+                                    length="12504756"
+                                    type="application/octet-stream" />
+                            
+                        
+                    </item>
+                
+            
+        
+            
+                
+                    <item>
+                        <title>v1.3.1</title>
+                        <description><![CDATA[<p>Install Xcodes using one of the methods listed <a href="https://github.com/RobotsAndPencils/XcodesApp#installation">here</a>.
+Update Xcodes by selecting Check for Updates… in the Xcodes menu in the menu bar.</p>
+
+<h2 id="changes">Changes</h2>
+<h2 id="--experiments">🧪  Experiments</h2>
+<p>Included in this release is the ability to turn on experiments inside of Xcodes! (Settings &gt; Experiments) 
+In the first experiment - thanks to the wonderful work of https://github.com/saagarjha/unxip - unxipping speed is increased by up to 70% on some newer Macs.</p>
+
+<p>This experiment is turned OFF by default - so make sure you increase your productivity by trying this new experiement!</p>
+
+<h2 id="-enhancements">🚀 Enhancements</h2>
+
+<ul>
+  <li>add a unxip experiment for faster unxipping (#179) @MattKiazyk</li>
+  <li>Show a message when user is not authorized yet (#165) @qyzdo</li>
+</ul>
+
+<h2 id="-bug-fixes">🐛 Bug Fixes</h2>
+
+<ul>
+  <li>Allow Non-Paid Apple Developer to download versions. (#168) @MattKiazyk</li>
+</ul>
+
+<h2 id="-maintenance">🧰 Maintenance</h2>
+<ul>
+  <li>Fix typo (#191) @jordanekay</li>
+  <li>Bump actions/checkout from 2.4.0 to 3 (#186) @dependabot</li>
+  <li>Bump actions/cache from 2.1.6 to 2.1.7 (#170) @dependabot</li>
+  <li>Bump actions/checkout from 2.3.5 to 2.4.0 (#166) @dependabot</li>
+</ul>
+
+<!-- sparkle:edSignature=ioZ6VrsmbabIfKEmj/mGuUSF1RWZWnE7fyhGCziTs0avLpGfrNKGljkdQ3lXFlJoaL+viMuII2znYRnGoCEqBg== -->
+]]></description>
+                        <pubDate>Tue, 29 Mar 2022 02:58:15 +0000</pubDate>
+                        
+                            
+
+                            
+                            
+                                
+                                
+
+                                <enclosure
+                                    url="https://github.com/RobotsAndPencils/XcodesApp/releases/download/v1.3.1b11/Xcodes.zip"
+                                    sparkle:version="11"
+                                    sparkle:shortVersionString="1.3.1"
+                                    sparkle:edSignature="ioZ6VrsmbabIfKEmj/mGuUSF1RWZWnE7fyhGCziTs0avLpGfrNKGljkdQ3lXFlJoaL+viMuII2znYRnGoCEqBg=="
+                                    length="12487168"
+                                    type="application/octet-stream" />
+                            
+                        
+                    </item>
+                
+            
+        
+            
+                
+            
+        
+            
+                
+                    <item>
+                        <title>v1.2.0</title>
+                        <description><![CDATA[<p>Install Xcodes using one of the methods listed <a href="https://github.com/RobotsAndPencils/XcodesApp#installation">here</a>.
+Update Xcodes by selecting Check for Updates… in the Xcodes menu in the menu bar.</p>
+
+<h2 id="changes">Changes</h2>
+
+<h2 id="-enhancements">🚀 Enhancements</h2>
+
+<ul>
+  <li>Better handling of when AppleId is not a developer (#159) @MattKiazyk</li>
+  <li>Adds a quick toolbar option for opening preferences (#158) @MattKiazyk</li>
+  <li>Adds ability to switch the local cache directory (#155) @MattKiazyk</li>
+  <li>Add new filter for Release or Beta versions (#153) @Binlogo</li>
+  <li>Add Xcode release date to info pane in Xcodes.app (#147) @provTheodoreNewell</li>
+</ul>
+
+<h2 id="-bug-fixes">🐛 Bug Fixes</h2>
+
+<ul>
+  <li>Better handling of duplicate builds and buttons not working (#156) @MattKiazyk</li>
+</ul>
+
+<h2 id="-maintenance">🧰 Maintenance</h2>
+
+<ul>
+  <li>Xcodes.app now builds on Xcode 12.5.1 (previously 12.4.0)</li>
+  <li>Bump addressable from 2.7.0 to 2.8.0 in /AppCast (#161) @dependabot</li>
+  <li>Bump actions/checkout from 2.3.4 to 2.3.5 (#160) @dependabot</li>
+  <li>Bump rexml from 3.2.4 to 3.2.5 in /AppCast (#140) @dependabot</li>
+  <li>Bump actions/cache from 2.1.5 to 2.1.6 (#136) @dependabot</li>
+  <li>Updates developer dir on CI runs to xcode 12.5 (#150) @MattKiazyk</li>
+</ul>
+
+<p>We’re at 1.6k 🌟 on Github! Thank you for your support! Please spread the word! The more developers on Xcodes, the less pain in the world!</p>
+
+<!-- sparkle:edSignature=iXFkt6ZhiaTeAHQDVOwEzL4Oin+w+UtMlv4MeCmsI6xQc8+YOm2GTtnfhxhXnGWkgRwzSQC/+2Iw0r0nEqwKDA== -->
+]]></description>
+                        <pubDate>Fri, 22 Oct 2021 12:40:57 +0000</pubDate>
+                        
+                            
+
+                            
+                            
+                                
+                                
+
+                                <enclosure
+                                    url="https://github.com/RobotsAndPencils/XcodesApp/releases/download/v1.2.0b8/Xcodes.zip"
+                                    sparkle:version="8"
+                                    sparkle:shortVersionString="1.2.0"
+                                    sparkle:edSignature="iXFkt6ZhiaTeAHQDVOwEzL4Oin+w+UtMlv4MeCmsI6xQc8+YOm2GTtnfhxhXnGWkgRwzSQC/+2Iw0r0nEqwKDA=="
+                                    length="12338054"
+                                    type="application/octet-stream" />
+                            
+                        
+                    </item>
+                
+            
+        
+            
+                
+                    <item>
+                        <title>1.1.0 (7)</title>
+                        <description><![CDATA[<p>Install Xcodes using one of the methods listed <a href="https://github.com/RobotsAndPencils/XcodesApp#installation">here</a>.
+Update Xcodes by selecting Check for Updates… in the Xcodes menu in the menu bar.</p>
+
+<h2 id="changes">Changes</h2>
+
+<ul>
+  <li>Handle required log in scenarios better instead of showing errors (#127) @aerickson14</li>
+  <li>Create universal aria2 binary (#123) @senmu</li>
+</ul>
+
+<h2 id="-enhancements">🚀 Enhancements</h2>
+
+<ul>
+  <li>Adds MacOS notifications (#126) @MattKiazyk Turn on via Settings!</li>
+  <li>Show sign in errors inline on sign in view (#129) @aerickson14</li>
+</ul>
+
+<h2 id="-bug-fixes">🐛 Bug Fixes</h2>
+
+<ul>
+  <li>only present a single alert at time (#131) @aerickson14</li>
+</ul>
+
+<h2 id="-maintenance">🧰 Maintenance</h2>
+
+<ul>
+  <li>Bump actions/checkout from 2 to 2.3.4 (#133) @dependabot</li>
+  <li>Bump actions/setup-ruby from 1 to 1.1.3 (#134) @dependabot</li>
+  <li>include updates to sparkle license (#130) @aerickson14</li>
+  <li>Bump actions/cache from v2.1.4 to v2.1.5 (#119) @dependabot</li>
+  <li>Bump kramdown from 2.3.0 to 2.3.1 in /AppCast (#118) @dependabot</li>
+</ul>
+
+<!-- sparkle:edSignature=cLGxQg5k3EVJzlvPTdnD3E8pwOcx9ZjVVBrcPdicLGyOANGs3Ase6UhlF5JO94Mi6NoQmXrj2T9JuVdBT5LABw== -->
+]]></description>
+                        <pubDate>Mon, 07 Jun 2021 16:31:35 +0000</pubDate>
+                        
+                            
+
+                            
+                            
+                                
+                                
+
+                                <enclosure
+                                    url="https://github.com/RobotsAndPencils/XcodesApp/releases/download/v1.1.0b7/Xcodes.zip"
+                                    sparkle:version="7"
+                                    sparkle:shortVersionString="1.1.0"
+                                    sparkle:edSignature="cLGxQg5k3EVJzlvPTdnD3E8pwOcx9ZjVVBrcPdicLGyOANGs3Ase6UhlF5JO94Mi6NoQmXrj2T9JuVdBT5LABw=="
+                                    length="12329315"
+                                    type="application/octet-stream" />
+                            
+                        
+                    </item>
+                
+            
+        
+            
+                
+                    <item>
+                        <title>1.0.5 (6)</title>
+                        <description><![CDATA[<p>Install Xcodes using one of the methods listed <a href="https://github.com/RobotsAndPencils/XcodesApp#installation">here</a>.
+Update Xcodes by selecting Check for Updates… in the Xcodes menu in the menu bar.</p>
+
+<h2 id="changes">Changes</h2>
+
+<h2 id="-enhancements">🚀 Enhancements</h2>
+
+<ul>
+  <li>Updates estimated time on info pane to 2 lines for better readability (#115) @MattKiazyk</li>
+  <li>Auto Install Xcode if wanted (#114) @MattKiazyk</li>
+</ul>
+
+<h2 id="-maintenance">🧰 Maintenance</h2>
+
+<ul>
+  <li>Add install and update instructions to release notes (#111) @interstateone</li>
+</ul>
+
+<!-- sparkle:edSignature=o68WXbj/QpF+uMivHgPdRV1cafP/EuYQycCVXAEl+TqNgI2eKbu5jUuelP1ZmLwQIVADOyPUA4E2hq4Wz+kJCQ== -->
+]]></description>
+                        <pubDate>Thu, 11 Mar 2021 01:07:43 +0000</pubDate>
+                        
+                            
+
+                            
+                            
+                                
+                                
+
+                                <enclosure
+                                    url="https://github.com/RobotsAndPencils/XcodesApp/releases/download/v1.0.5b6/Xcodes.zip"
+                                    sparkle:version="6"
+                                    sparkle:shortVersionString="1.0.5"
+                                    sparkle:edSignature="o68WXbj/QpF+uMivHgPdRV1cafP/EuYQycCVXAEl+TqNgI2eKbu5jUuelP1ZmLwQIVADOyPUA4E2hq4Wz+kJCQ=="
+                                    length="10430337"
+                                    type="application/octet-stream" />
+                            
+                        
+                    </item>
+                
+            
+        
+            
+                
+                    <item>
+                        <title>1.0.4 (5)</title>
+                        <description><![CDATA[<p>Install Xcodes using one of the methods listed <a href="https://github.com/RobotsAndPencils/XcodesApp#installation">here</a>.
+Update Xcodes by selecting Check for Updates… in the Xcodes menu in the menu bar.</p>
+
+<h2 id="changes">Changes</h2>
+
+<h2 id="-enhancements">🚀 Enhancements</h2>
+
+<ul>
+  <li>Display installation steps with download stats in info pane (#107) @MattKiazyk</li>
+  <li>Display the download file size when using Apple data source (#98) @MattKiazyk</li>
+  <li>Change PreferencesView to use SwiftUI’s built-in Settings scene (#89) @MattKiazyk</li>
+</ul>
+
+<h2 id="-bug-fixes">🐛 Bug Fixes</h2>
+
+<ul>
+  <li>Improve how identical builds are represented in the UI (#100) @interstateone</li>
+  <li>When downloading, use the downloader specified in preferences (#102) @MattKiazyk</li>
+  <li>Remove info pane from split view instead of hiding it (#103) @interstateone</li>
+  <li>Move the .help for the ProgressIndicator so it refreshes with the fraction change (#104) @MattKiazyk</li>
+</ul>
+
+<h2 id="-maintenance">🧰 Maintenance</h2>
+
+<ul>
+  <li>Bump actions/cache from v2 to v2.1.4 (#105) @dependabot</li>
+  <li>Add Homebrew Cask install instructions (#95) @interstateone</li>
+</ul>
+
+<!-- sparkle:edSignature=M/e+bFPmNSwUI2P4UaucSXsqMdT4woH5mkhwDR0rJ5OBbaJ9FY+8+9Dk5eOg4QabMa5juFXZHuQf7UW8k/HZCg== -->
+]]></description>
+                        <pubDate>Mon, 22 Feb 2021 21:50:31 +0000</pubDate>
+                        
+                            
+
+                            
+                            
+                                
+                                
+
+                                <enclosure
+                                    url="https://github.com/RobotsAndPencils/XcodesApp/releases/download/v1.0.4b5/Xcodes.zip"
+                                    sparkle:version="5"
+                                    sparkle:shortVersionString="1.0.4"
+                                    sparkle:edSignature="M/e+bFPmNSwUI2P4UaucSXsqMdT4woH5mkhwDR0rJ5OBbaJ9FY+8+9Dk5eOg4QabMa5juFXZHuQf7UW8k/HZCg=="
+                                    length="10421990"
+                                    type="application/octet-stream" />
+                            
+                        
+                    </item>
+                
+            
+        
+            
+                
+                    <item>
+                        <title>1.0.3 (4)</title>
+                        <description><![CDATA[<h2 id="changes">Changes</h2>
+
+<h2 id="-enhancements">🚀 Enhancements</h2>
+
+<ul>
+  <li>Add tooltip with percent complete to download progress indicator (#81) @MattKiazyk</li>
+  <li>Prepare user for helper installation before attempting to install (#84) @interstateone</li>
+  <li>Handle helper installation errors (#80) @interstateone</li>
+  <li>Catch and reword xip “not enough free space” error (#79) @interstateone</li>
+  <li>Show stored username in General preference pane even when we don’t have a valid session (#87) @interstateone</li>
+  <li>Change the Updates preference pane copy to make it more clear its for app updates (#74) @MattKiazyk</li>
+</ul>
+
+<h2 id="-bug-fixes">🐛 Bug Fixes</h2>
+
+<ul>
+  <li>Improve authentication error messages that are shown to users (#86) @interstateone</li>
+  <li>Persist filter and info pane state across app launches (#78) @MattKiazyk</li>
+  <li>Don’t show parentheses when buildMetadataIdentifiers is empty (#73) @MattKiazyk</li>
+</ul>
+
+<h2 id="-maintenance">🧰 Maintenance</h2>
+
+<ul>
+  <li>Add instructions to move app to /Applications to README (#82) @MattKiazyk</li>
+  <li>Add GitHub issue templates (#75) @MattKiazyk</li>
+</ul>
+
+<!-- sparkle:edSignature=kZt1uUbQR9BLjX9r0DjlajGlz20k7hRuRBNPnI71f1k/DdtFKJnlvd+eotBI9/kIhvbMyv4QpLsCkzRPZGOcCg== -->
+]]></description>
+                        <pubDate>Tue, 26 Jan 2021 16:21:01 +0000</pubDate>
+                        
+                            
+
+                            
+                            
+                                
+                                
+
+                                <enclosure
+                                    url="https://github.com/RobotsAndPencils/XcodesApp/releases/download/v1.0.3b4/Xcodes.zip"
+                                    sparkle:version="4"
+                                    sparkle:shortVersionString="1.0.3"
+                                    sparkle:edSignature="kZt1uUbQR9BLjX9r0DjlajGlz20k7hRuRBNPnI71f1k/DdtFKJnlvd+eotBI9/kIhvbMyv4QpLsCkzRPZGOcCg=="
+                                    length="10460282"
+                                    type="application/octet-stream" />
+                            
+                        
+                    </item>
+                
+            
+        
+            
+                
+                    <item>
+                        <title>1.0.2 (3)</title>
+                        <description><![CDATA[<h2 id="changes">Changes</h2>
+
+<ul>
+  <li>Add Sparkle for software updates (#62) @interstateone</li>
+</ul>
+
+<!-- sparkle:edSignature=Z4orm82DLqUB0q5B+9PsVWgm8FYEqije7umuylooLZM8+XaiX9IEH2OoNoHWIGh8e+PRekMJ5DfL0iTmqz2eBQ== -->
+]]></description>
+                        <pubDate>Wed, 20 Jan 2021 18:12:04 +0000</pubDate>
+                        
+                            
+
+                            
+                            
+                                
+                                
+
+                                <enclosure
+                                    url="https://github.com/RobotsAndPencils/XcodesApp/releases/download/v1.0.2b3/Xcodes.zip"
+                                    sparkle:version="3"
+                                    sparkle:shortVersionString="1.0.2"
+                                    sparkle:edSignature="Z4orm82DLqUB0q5B+9PsVWgm8FYEqije7umuylooLZM8+XaiX9IEH2OoNoHWIGh8e+PRekMJ5DfL0iTmqz2eBQ=="
+                                    length="10441281"
+                                    type="application/octet-stream" />
+                            
+                        
+                    </item>
+                
+            
+        
+            
+                
+                    <item>
+                        <title>1.0.1 (2)</title>
+                        <description><![CDATA[<h2 id="changes">Changes</h2>
+
+<ul>
+  <li>Manually build and deploy the appcasts (#61) @interstateone</li>
+  <li>Fold HelperInstaller into HelperClient, improve error handling and logging (#59) @interstateone</li>
+  <li>Build and publish appcasts with GitHub Pages (#60) @interstateone</li>
+</ul>
+
+<!-- sparkle:edSignature=0sFDBZVFN1QNfXYDocYG0KUCsXkHUbrBGuugsqEo5XWpQa6MIdKRN8agry9UeUdStTk2iH45XfNiA+lzuj1xBA== -->
+]]></description>
+                        <pubDate>Wed, 20 Jan 2021 05:36:33 +0000</pubDate>
+                        
+                            
+
+                            
+                            
+                                
+                                
+
+                                <enclosure
+                                    url="https://github.com/RobotsAndPencils/XcodesApp/releases/download/v1.0.1b2/Xcodes.zip"
+                                    sparkle:version="2"
+                                    sparkle:shortVersionString="1.0.1"
+                                    sparkle:edSignature="0sFDBZVFN1QNfXYDocYG0KUCsXkHUbrBGuugsqEo5XWpQa6MIdKRN8agry9UeUdStTk2iH45XfNiA+lzuj1xBA=="
+                                    length="8361777"
+                                    type="application/octet-stream" />
+                            
+                        
+                    </item>
+                
+            
+        
+            
+                
+                    <item>
+                        <title>1.0.0 (1)</title>
+                        <description><![CDATA[<p>Initial release</p>
+
+<!-- sparkle:edSignature=ELrJn0LYxAlaAUbO4FNcEXtQDAMV1md0eWbtRfsCwBRwa6em+RrVB0Bcm3KlIGW1L6zTTqdsWmf7isyJwRs4CQ== -->
+]]></description>
+                        <pubDate>Tue, 19 Jan 2021 03:35:06 +0000</pubDate>
+                        
+                            
+
+                            
+                            
+                                
+                                
+
+                                <enclosure
+                                    url="https://github.com/RobotsAndPencils/XcodesApp/releases/download/v1.0.0b1/Xcodes.zip"
+                                    sparkle:version="1"
+                                    sparkle:shortVersionString="1.0.0"
+                                    sparkle:edSignature="ELrJn0LYxAlaAUbO4FNcEXtQDAMV1md0eWbtRfsCwBRwa6em+RrVB0Bcm3KlIGW1L6zTTqdsWmf7isyJwRs4CQ=="
+                                    length="8361125"
+                                    type="application/octet-stream" />
+                            
+                        
+                    </item>
+                
+            
+        
+    </channel>
+</rss>
+
