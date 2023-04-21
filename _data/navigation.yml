@@ -7,10 +7,10 @@
 #   new_window: false
 #   highlight: false
 - name: Download Xcodes
-  link: https://github.com/RobotsAndPencils/xcodesapp/releases/latest.zip
+  link: https://github.com/XcodesOrg/xcodesapp/releases/latest.zip
   new_window: true
   highlight: true
 - name: Download CLI
-  link: https://github.com/RobotsAndPencils/xcodes/releases/latest.zip
+  link: https://github.com/XcodesOrg/xcodes/releases/latest.zip
   new_window: true
   highlight: true
