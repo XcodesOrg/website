@@ -2,15 +2,15 @@
     height: 450px;
 }
 .split {
-    width: 100%;
+    width: 95%;
     height: auto;
     position: absolute;
     display: block;
 }
 
 .split:nth-of-type(2) {
-    -webkit-clip-path: polygon(100% 0, 0% 100%, 100% 100%);
-    clip-path: polygon(100% 0, 0% 100%, 100% 100%);
+    -webkit-clip-path: polygon(100% 0, 0% 94%, 100% 94%);
+    clip-path: polygon(100% 0, 0% 94%, 100% 94%);
 }
 .buymeacoffee {
     width: 200px;
