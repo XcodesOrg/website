@@ -8,6 +8,10 @@
     link: https://twitter.com/xcodesapp/
     social_icon: Twitter
     new_window: true
+  - name: Mastadon
+    link: https://iosdev.space/@XcodesApp
+    social_icon: Mastadon
+    new_window: true
   - name: RSS
     link: /feed.xml
     social_icon: RSS

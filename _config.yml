@@ -15,6 +15,10 @@ description: Download Xcode easily with a mouse click or a Command Line Interfac
 twitter: 
   username: xcodesapp
   card: summary
+social:
+  name: "@XcodesApp@iosdev.space"
+  links: 
+    - https://iosdev.space/@XcodesApp
 author: 
   name: Matt Kiazyk
   twitter: mattkiazyk
